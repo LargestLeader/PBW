@@ -480,11 +480,7 @@ steamer_transports = {
 commerce_raiders = {
 	limit = { steamers = 1 }
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			fire_control_systems = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = commerce_raider
@@ -519,11 +515,7 @@ ironclads = {
 		iron_steamers = 1
 	}
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			weapon_platforms = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = ironclad  
@@ -534,11 +526,7 @@ monitors = {
 		iron_steamers = 1
 	}
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			weapon_platforms = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = monitor 
@@ -570,11 +558,7 @@ protected_cruisers = {
 		steel_steamers = 1
 	}
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			main_armament = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = cruiser 
@@ -609,11 +593,7 @@ pre_dreadnought = {
 		steel_steamers = 1
 	}
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			main_armament = 1
-		}
+		base = 100
 	}
 	effect = {
 		ironclad = {
@@ -630,11 +610,7 @@ dreadnoughts = {
 		steam_turbine_ships = 1
 	}
 	chance = {
-		base = 0
-		modifier = {
-			factor = 100
-			advanced_naval_design = 1
-		}
+		base = 100
 	}
 	effect = {
 		activate_unit = dreadnought 

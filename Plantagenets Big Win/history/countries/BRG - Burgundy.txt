@@ -11,6 +11,7 @@ prestige = 60
 
 set_country_flag = protestant_country
 set_country_flag = starts_with_precision_work
+set_country_flag = rex_burgundicum
 
 # Political reforms
 slavery = yes_slavery

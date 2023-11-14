@@ -74,7 +74,6 @@ political_decisions = {
 		potential = {
 			tag = HUN
 			771 = { is_core = THIS }
-			nationalism_n_imperialism = 1
 			NOT = { has_country_flag = croatian_compromise }
 		}
 	
@@ -82,10 +81,7 @@ political_decisions = {
 			owns = 771 #Zagreb
 			owns = 779 #Osijek
 			war = no
-			OR = { 
-				government = hms_government
-				government = democracy
-			}
+			nationalism_n_imperialism = 1
 			NOT = {
 				citizenship_policy = residency
 				exists = CRO
@@ -177,20 +173,89 @@ political_decisions = {
 		picture = "Triglav"
 	
 		potential = { 
-		tag = CRO 
+		OR = {
+			tag = CRO
+			AND = {
+				tag = HUN
+				has_country_flag = Hungarian_CRO
+			}
+		}
 		NOT = { has_country_flag = accepted_slovenians }
 		}
 		allow = { 
 		OR = { 
 		owns = 768 
-		owns = 769 
+		owns = 767 
 			}
 		}
 		
 		effect = { 
 		set_country_flag = accepted_slovenians
 		add_accepted_culture = slovene
+		768 = { add_core = THIS }
+		767 = { add_core = THIS }
 		}
 	
+	}
+	conquest_of_romania = {
+		potential = {
+			tag = HUN
+			NOT = { has_country_flag = conquest_of_romania }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			ROM = {
+				all_core = {
+					OR = { 
+						owned_by = THIS 
+						owner = {
+							OR = {
+								vassal_of = THIS
+								in_sphere = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = romanian
+			ROM = { all_core = { add_core = THIS }}
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					primary_culture = romanian
+				}
+				country_event = 11101
+			}
+			set_country_flag = conquest_of_romania
+		}
+	}
+	conquest_of_serbia = {
+		potential = {
+			tag = HUN
+			NOT = { has_country_flag = conquest_of_serbia }
+			has_country_flag = croatian_compromise
+		}
+		allow = {
+			SER = { all_core = { owned_by = THIS } }
+			MON = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			SER = { all_core = { add_core = THIS }}
+			MON = { all_core = { add_core = THIS }}
+			add_accepted_culture = serb
+			any_pop = {
+				limit = {
+					has_pop_culture = hungarian
+				}
+				militancy = 2
+				consciousness = 4
+			}
+			set_country_flag = conquest_of_serbia
+		}
 	}
 }

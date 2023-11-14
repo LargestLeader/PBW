@@ -3531,34 +3531,39 @@
 #Kleves (356000/89000 POPS)
 577 = {
 	aristocrats = {
-		culture = dutch
+		culture = rheinish
 		religion = protestant
 		size = 900 
 	}
 
 	clergymen = {
-		culture = dutch
+		culture = rheinish
 		religion = protestant
 		size = 875
 	}
 
 	artisans = {
-		culture = dutch
+		culture = rheinish
 		religion = protestant
 		size = 4450
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = rheinish
 		religion = protestant
 		size= 2100
 
 	}
 
 	farmers = {
-		culture = dutch
+		culture = rheinish
 		religion = protestant
 		size = 80675
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 30000
 	}
 }
 #Dusseldorf (364000/91000 POPS)
@@ -5181,75 +5186,75 @@
 #Konigsberg (484000/121000 POPS)
 695 = {
 	aristocrats = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 2250 
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 1300
 	}
 
 	officers = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 250  
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 825  
 	}
 
 	artisans = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 10000   
 	}
 	
 	artisans = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 5000   
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size= 3000
 
 	}
 
 	farmers = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 68875
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = pomeranian
 		religion = catholic
 		size = 175   
 	}
 
 	artisans = {
-		culture = north_german
+		culture = pomeranian
 		religion = catholic
 		size = 1100 
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = pomeranian
 		religion = catholic
 		size= 1000
 
 	}
 
 	farmers = {
-		culture = north_german
+		culture = pomeranian
 		religion = catholic
 		size = 18025
 	}
@@ -5319,32 +5324,32 @@
 #Gumbinnen (228000/57000 POPS) #now part of Russia 
 697 = {
 	aristocrats = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 1100 
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 475   
 	}
 
 	artisans = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 2600   
 	}
 
 	soldiers = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size= 550
 
 	}
 
 	farmers = {
-		culture = north_german
+		culture = pomeranian
 		religion = protestant
 		size = 47275
 	}

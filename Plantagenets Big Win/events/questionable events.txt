@@ -1,0 +1,25 @@
+country_event = {
+    id = 9990001
+    title = "Free Hesse"
+    desc = "Shouldn't have let it out of sphere."
+
+    trigger = {
+        OR = {
+            tag = BOH
+            tag = CAE
+        }
+        HES = { 
+            vassal_of = THIS
+            NOT = { in_sphere = BOH }
+        }
+    }
+
+    mean_time_to_happen = {
+		days = 1
+	}
+
+    option = {
+        name = "Tragic"
+        release_vassal = HES
+    }
+}

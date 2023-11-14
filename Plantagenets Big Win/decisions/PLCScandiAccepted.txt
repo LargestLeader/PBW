@@ -217,6 +217,21 @@ baltic_cultures = {
 		}
 	}
 
+	scandi_lithuanian = {
+		potential = {
+			tag = SCA
+			has_country_flag = nordtyskland
+			NOT = { has_country_flag = scandi_lithuanian }
+		}
+		allow = {
+			owns = 360
+		}
+		effect = {
+			add_accepted_culture = lithuanian
+			set_country_flag = scandi_lithuanian
+		}
+	}
+
 	meddle_with_cossacks = { 
 	
 		potential = { 

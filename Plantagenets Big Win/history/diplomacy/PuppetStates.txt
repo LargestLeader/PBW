@@ -60,8 +60,8 @@ vassal = {
 }
 
 vassal = {
-	first = ASK
-	second = CIR
+	first = BOH
+	second = HES
 	start_date = 1830.1.1
 	end_date = 1937.1.1
 }

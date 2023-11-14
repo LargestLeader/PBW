@@ -4,6 +4,7 @@ political_decisions = {
 	potential = { 
 	tag = FRA 
 	NOT = { has_country_flag = occitania_reclaime }
+	NOT = { has_country_flag = rex_burgundicum }
 		}
 		
 	allow = { 
@@ -23,6 +24,7 @@ political_decisions = {
 	picture = Occitania
 	potential = { 
 	tag = FRA 
+	NOT = { has_country_flag = rex_burgundicum }
 	NOT = { accepted_culture = provencal }
 	NOT = { OCC = { exists = yes } }
 	NOT = { has_country_flag = occitania_reclaime }

@@ -784,6 +784,11 @@ assimilation_chance = {
 		factor = -20
 		has_culture_core = yes
 	}
+
+	modifier = {
+		factor = 40
+		has_province_modifier = return_of_the_french
+	}
 	
 	#modifier = {
 	#	factor = -20

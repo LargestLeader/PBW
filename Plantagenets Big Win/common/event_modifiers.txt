@@ -28,7 +28,7 @@ no_trade_policy_set = {
 
 return_of_the_french = {
 	icon = 8
-	assimilation_rate = 5
+	assimilation_rate = 3
 }
 
 recently_demoted = {

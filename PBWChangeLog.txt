@@ -22,3 +22,4 @@ MASSIVE IMPACTFUL DIVERGENCES from zombie dod
 -added in renomod army stats but not navy ones
 -renamed novgorod
 -incas is now civilized
+-the -20 assimilation chance from culture cores has been removed

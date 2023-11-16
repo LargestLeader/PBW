@@ -1,6 +1,6 @@
 capital = 357
-primary_culture = pomeranian
-culture = latvian
+primary_culture = latvian
+culture = pomeranian
 religion = protestant
 government = absolute_monarchy
 plurality = 0.2

@@ -95,6 +95,9 @@ political_decisions = {
 							province_id = 571 
 							province_id = 533
 							province_id = 624
+							province_id = 577
+							province_id = 409
+							province_id = 410
 						}
 					}
 			}

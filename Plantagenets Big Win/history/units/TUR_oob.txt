@@ -40,7 +40,7 @@ leader = {
 	type = land
 	date = 1836.1.1
 	personality = vicious
-	background = warmonger
+	background = 2.751_attack
 }
 
 leader = {
@@ -88,7 +88,7 @@ leader = {
 	type = sea
 	date = 1836.1.1
 	personality = ruthless
-	background = expert_raider
+	background = 2.751_attack
 }
 
 army = {
@@ -125,19 +125,19 @@ army = {
 	name = "Army of Anatolia"
 	location = 861
 	regiment = {
-		name= "5. Piyade Tümeni"
+		name= "5. Piyade Tï¿½meni"
 		type = infantry
 		home = 810
 	}
 
 	regiment = {
-		name= "6. Piyade Tümeni"
+		name= "6. Piyade Tï¿½meni"
 		type = infantry
 		home = 810
 	}
 
 	regiment = {
-		name= "7. Piyade Tümeni"
+		name= "7. Piyade Tï¿½meni"
 		type = artillery
 		home = 823
 	}
@@ -194,13 +194,13 @@ army = {
 	name = "Army of Arabia"
 	location = 902
 	regiment = {
-		name= "12. Piyade Tümeni"
+		name= "12. Piyade Tï¿½meni"
 		type = infantry
 		home = 884
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
+		name= "13. Piyade Tï¿½meni"
 		type = infantry
 		home = 873
 	}
@@ -228,13 +228,13 @@ army = {
 	name = "Army of Suez"
 	location = 1746
 	regiment = {
-		name= "12. Piyade Tümeni"
+		name= "12. Piyade Tï¿½meni"
 		type = infantry
 		home = 876
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
+		name= "13. Piyade Tï¿½meni"
 		type = infantry
 		home = 881
 	}

@@ -345,7 +345,7 @@ elastic_defense_system = {
 			attack = 1.3
 		}
 		cuirassier = {
-			attack = 0.5
+			attack = 1.5
 		}
 		cavalry = {
 			attack = 0.5
@@ -458,7 +458,7 @@ low_echelon_fire_support = {
 	}
 }
 stormtrooper_training = {
-	limit = { bolt_action_rifle_armament = 1 }
+	limit = { infiltration = 1 }
 	chance = {
 		base = 5
 		modifier = {
@@ -468,19 +468,32 @@ stormtrooper_training = {
 	}
 	effect = {
 		infantry = {
-			attack = 1
+			attack = 1.5
 		}
 		guard = {
-			attack = 1
+			attack = 1.7
 		}
 		engineer = {
+			attack = 1.2
+		}
+		dragoon = {
 			attack = 1
-			defence = 1
-			siege = 1				
+		}
+		artillery = {
+			attack = 0.4
+		}
+		hussar = {
+			attack = 1.3
+		}
+		cavalry = {
+			attack = 0.7
+		}
+		irregular = {
+			attack = 0.7
 		}
 		army_base = {
 			supply_consumption = 0.05
-		}
+		} 
 	}
 }
 tank_experiments = {

@@ -80,15 +80,15 @@ leader = {
 	name = "Jan Niklas"
 	type = land
 	date = 1836.1.1
-	personality = efficient
-	background = generals_aide
+	personality = 1.208_defence
+	background = 2.343_attack
 }
 
 leader = {
 	name = "Ivan Gellner"
 	type = land
 	date = 1836.1.1
-	personality = resolute
+	personality = 2.34_defence
 	background = drillmaster
 }
 
@@ -97,7 +97,7 @@ leader = {
 	type = land
 	date = 1836.1.1
 	personality = keen
-	background = school_of_offense
+	background = 1.631_attack
 }
 
 leader = {
@@ -105,7 +105,7 @@ leader = {
 	type = land
 	date = 1836.1.1
 	personality = skilled
-	background = mercenary
+	background = 1.631_attack
 }
 
 army = {

@@ -220,10 +220,10 @@ baltic_cultures = {
 	scandi_lithuanian = {
 		potential = {
 			tag = SCA
-			has_country_flag = nordtyskland
 			NOT = { has_country_flag = scandi_lithuanian }
 		}
 		allow = {
+			revolution_n_counterrevolution = 1
 			owns = 360
 		}
 		effect = {

@@ -18,7 +18,6 @@ nv_liberty = {
 
 nv_equality = {
 	global_immigrant_attract = 0.05
-	assimilation_rate = 0.1
 	social_reform_desire = 0.05
 	global_pop_militancy_modifier = -0.01
 	culture_tech_research_bonus = 0.05
@@ -53,4 +52,23 @@ nv_productivity = {
 	commerce_tech_research_bonus = 0.05
 	mobilisation_size = 0.04
 	mobilisation_economy_impact = 0.5
+}
+
+nv_equity = {
+	land_organisation = 0.1
+	naval_organisation = 0.1
+	org_regain = 0.05
+	land_unit_start_experience = 5
+	naval_unit_start_experience = 5
+	mobilisation_size = 0.06
+	mobilisation_economy_impact = 0.75
+}
+
+nv_library = {
+	global_immigrant_attract = 0.05
+	social_reform_desire = 0.05
+	global_pop_militancy_modifier = -0.01
+	culture_tech_research_bonus = 0.05
+	mobilisation_size = 0.03
+	mobilisation_economy_impact = 1.1
 }

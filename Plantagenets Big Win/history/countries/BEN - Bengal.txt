@@ -58,9 +58,6 @@ army_command_principle = 1
 # Inventions
 
 # Unciv Reforms
-research_reform = yes_research_reform
-army_schools = yes_army_schools
-foreign_training = yes_foreign_training
 
 
 # Starting Consciousness

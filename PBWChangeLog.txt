@@ -26,3 +26,10 @@ MASSIVE IMPACTFUL DIVERGENCES from zombie dod
 -stole the hre cb from potat dod 
 -changed some national values for balance
 -fixed some oobs with new general traits
+
+Post 1.0
+-removed all chinese unciv reforms
+-gave ethiopia a research points from conquest reform
+-removed all the larp requirements from tech schools
+-fixed general traits for like the 8th time
+-fixed positive assimilation modifiers

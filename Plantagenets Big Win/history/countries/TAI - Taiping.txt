@@ -57,7 +57,6 @@ late_enlightenment_philosophy = 1
 # Inventions
 
 # Unciv Reforms
-foreign_training = yes_foreign_training
 
 # Starting Consciousness
 consciousness = 0

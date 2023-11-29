@@ -2,8 +2,8 @@ leader = {
 	name = "Antun Simic"
 	type = land
 	date = 1836.1.1
-	personality = glory_hound
-	background = hussar_school
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

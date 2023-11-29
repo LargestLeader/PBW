@@ -2,16 +2,16 @@ leader = {
 	name = "Josif Gudunov"
 	type = land
 	date = 1836.1.1
-	personality = aggressive
-	background = ambitious_careerist
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Dmitryi Ivanov"
 	type = sea
 	date = 1836.1.1
-	personality = irresponsible
-	background = inventor
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

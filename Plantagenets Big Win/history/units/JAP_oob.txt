@@ -2,72 +2,72 @@ leader = {
 	name = "No-miya Uehara"
 	type = land
 	date = 1836.1.1
-	personality = aggressive
-	background = rising_star
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Saigo Takamori"
 	type = land
 	date = 1836.1.1
-	personality = cruel
-	background = disgraced
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Hisaichi Terauchi"
 	type = land
 	date = 1836.1.1
-	personality = imaginative
-	background = member_of_elite
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Hajime Sugiyama"
 	type = land
 	date = 1836.1.1
-	personality = calm
-	background = nationalist
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Kawamura Kageaki"
 	type = land
 	date = 1836.1.1
-	personality = earnest
-	background = corrupt
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Takeda Nobuyoshi"
 	type = land
 	date = 1836.1.1
-	personality = brash
-	background = ambitious_careerist
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Asakura Yoshikage"
 	type = land
 	date = 1836.1.1
-	personality = relentless
-	background = son_of_hero
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Shunroku Hata"
 	type = land
 	date = 1836.1.1
-	personality = decisive
-	background = war_college
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Osami Nagano"
 	type = sea
 	date = 1836.1.1
-	personality = lilylivered
-	background = elderly
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

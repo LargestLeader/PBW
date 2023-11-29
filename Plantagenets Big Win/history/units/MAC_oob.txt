@@ -2,16 +2,16 @@ leader = {
 	name = "Alexandar Kostadin"
 	type = land
 	date = 1836.1.1
-	personality = keen
-	background = brilliant_strategist
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Gjerasim Avram"
 	type = land
 	date = 1836.1.1
-	personality = tyrant
-	background = natural_born_leader
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 

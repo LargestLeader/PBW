@@ -2,24 +2,24 @@ leader = {
 	name = "Aurangzeb Alamgir"
 	type = land
 	date = 1836.1.1
-	personality = gallant
-	background = medical_man
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Sher Shah Suri"
 	type = land
 	date = 1836.1.1
-	personality = cool_minded
-	background = artillerist
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Bahadur Suri"
 	type = land
 	date = 1836.1.1
-	personality = secretive
-	background = uncommonly_young
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

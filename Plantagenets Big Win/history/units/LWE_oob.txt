@@ -2,16 +2,16 @@ leader = {
 	name = "Hendrik Potgieter"
 	type = land
 	date = 1836.1.1
-	personality = imperious
-	background = state_ideologue
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Sarel Cilliers"
 	type = sea
 	date = 1836.1.1
-	personality = deeply_religious
-	background = introverted_philosopher
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

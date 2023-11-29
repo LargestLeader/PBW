@@ -62,64 +62,64 @@ leader = {
 	name = "Lars Lund"
 	type = land
 	date = 1836.1.1
-	personality = impulsive
-	background = old_school
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Olaf Grunwald"
 	type = land
 	date = 1836.1.1
-	personality = reserved
-	background = war_college
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Ulf Lindhart"
 	type = land
 	date = 1836.1.1
-	personality = careful
-	background = engineer
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Viggo Stensgaard"
 	type = land
 	date = 1836.1.1
-	personality = openminded
-	background = colonial_recruit
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Ulrich Thorsen"
 	type = land
 	date = 1836.1.1
-	personality = romantic
-	background = professor
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Erik Blom"
 	type = sea
 	date = 1836.1.1
-	personality = lackluster
-	background = powerful_friends
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Christian Knuth"
 	type = sea
 	date = 1836.1.1
-	personality = genius
-	background = uncommonly_young
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Vilhelm Ingels"
 	type = sea
 	date = 1836.1.1
-	personality = inept
-	background = pawn
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {
@@ -833,12 +833,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Äran"
+		name= "ï¿½ran"
 		type = manowar
 	}
 
 	ship = {
-		name= "Försiktigheten"
+		name= "Fï¿½rsiktigheten"
 		type = manowar
 	}
 
@@ -943,7 +943,7 @@ navy = {
 	}
 	
 	ship = {
-		name= "Fäderneslandet"
+		name= "Fï¿½derneslandet"
 		type = manowar
 	}
 

@@ -83,7 +83,7 @@ leader = {
 	name = "Tristan Duras"
 	type = land
 	date = 1836.1.1
-	personality = secretive
+	personality = 0.182_defence
 	background = 2.751_attack
 }
 
@@ -91,23 +91,23 @@ leader = {
 	name = "Guillame de Anvers"
 	type = land
 	date = 1836.1.1
-	personality = glory_hound
-	background = aristocrat
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Jean Ferro"
 	type = land
 	date = 1836.1.1
-	personality = shirker
-	background = sinner
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Paul Laforgue"
 	type = land
 	date = 1836.1.1
-	personality = daring
+	personality = 0.182_defence
 	background = 3.785_attack
 }
 
@@ -123,8 +123,8 @@ leader = {
 	name = "Georges Roussel"
 	type = land
 	date = 1836.1.1
-	personality = scared
-	background = unqualified
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 
@@ -132,8 +132,8 @@ leader = {
 	name = "Antoine Villon"
 	type = sea
 	date = 1836.1.1
-	personality = expert
-	background = cartographer
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {
@@ -337,7 +337,7 @@ army = {
 
 army = {
 	name = "Arm�e du Cap"
-	location = 2087
+	location = 432
   regiment = {
 		name= "1. Infantrie"
 		type = infantry
@@ -397,7 +397,7 @@ army = {
 
 army = {
 	name = "Garnison de l'Inde"
-	location = 1306
+	location = 398
   regiment = {
 		name= "1. Infantrie"
 		type = infantry
@@ -691,7 +691,7 @@ navy = {
 
 navy = {
 	name = "Escadre de Java"
-	location = 1414
+	location = 375
 	ship = {
 		name= "Deus"
 		type = manowar

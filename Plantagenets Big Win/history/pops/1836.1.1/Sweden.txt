@@ -528,7 +528,7 @@
 	craftsmen = {
 		culture = scandinavian
 		religion = protestant
-		size = 20000
+		size = 30000
 	}
   
   capitalists = {

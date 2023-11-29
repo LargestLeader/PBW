@@ -2,16 +2,16 @@ leader = {
 	name = "Faisal I"
 	type = land
 	date = 1836.1.1
-	personality = unruly
-	background = aristocrat
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Nuri as-Said"
 	type = land
 	date = 1836.1.1
-	personality = inept
-	background = renowned_adventurer
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

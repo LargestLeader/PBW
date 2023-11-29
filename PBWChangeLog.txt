@@ -33,3 +33,6 @@ Post 1.0
 -removed all the larp requirements from tech schools
 -fixed general traits for like the 8th time
 -fixed positive assimilation modifiers
+-attempted to make burgundy and scandi less shit, no idea if it worked
+-removed the colonial army stuff
+-fixed a ton of oobs (probably missed some important ones)

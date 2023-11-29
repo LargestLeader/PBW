@@ -2,16 +2,16 @@ leader = {
 	name = "Girard Lipinski"
 	type = land
 	date = 1836.1.1
-	personality = tactful
-	background = elderly
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Piotr Askenazy"
 	type = land
 	date = 1836.1.1
-	personality = shrinking_violet
-	background = introverted_philosopher
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

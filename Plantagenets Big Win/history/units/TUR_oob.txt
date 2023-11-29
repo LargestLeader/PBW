@@ -39,7 +39,7 @@ leader = {
 	name = "Nazan Girik"
 	type = land
 	date = 1836.1.1
-	personality = vicious
+	personality = 0.182_defence
 	background = 2.751_attack
 }
 
@@ -47,47 +47,47 @@ leader = {
 	name = "Demet Hassan"
 	type = land
 	date = 1836.1.1
-	personality = lazy
-	background = toady
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Nur Yener"
 	type = land
 	date = 1836.1.1
-	personality = brave
-	background = unqualified
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Mehmet Ekren"
 	type = land
 	date = 1836.1.1
-	personality = charismatic
-	background = religious_fanatic
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Aziz Ibn Isa"
 	type = land
 	date = 1836.1.1
-	personality = skilled
-	background = ethnic
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Abdel el-Akkad"
 	type = land
 	date = 1836.1.1
-	personality = bastard
-	background = mercenary
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Piri Barbarossa"
 	type = sea
 	date = 1836.1.1
-	personality = ruthless
+	personality = 0.182_defence
 	background = 2.751_attack
 }
 

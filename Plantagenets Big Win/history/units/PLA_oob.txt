@@ -2,16 +2,16 @@ leader = {
 	name = "Pierre Duchesne"
 	type = land
 	date = 1836.1.1
-	personality = arrogant
-	background = ethnic
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Samuel de Champlain"
 	type = sea
 	date = 1836.1.1
-	personality = gregarious
-	background = inventor
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

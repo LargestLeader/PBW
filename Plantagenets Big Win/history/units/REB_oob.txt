@@ -2,32 +2,32 @@ leader = {
 	name = "Mehmed Girik"
 	type = land
 	date = 1836.1.1
-	personality = efficient
-	background = resolute
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Tuman Girik"
 	type = land
 	date = 1836.1.1
-	personality = keen
-	background = son_of_hero
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Muhammad al-Antalya"
 	type = land
 	date = 1836.1.1
-	personality = dauntless
-	background = eccentric_genius
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Muhammad Girik"
 	type = land
 	date = 1836.1.1
-	personality = dauntless
-	background = aristocrat
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 army = {

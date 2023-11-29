@@ -45,23 +45,23 @@ leader = {
 	name = "Josep Serna"
 	type = land
 	date = 1836.1.1
-	personality = energetic
-	background = unfulfilled_potential
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Ramon Oller"
 	type = land
 	date = 1836.1.1
-	personality = timid
-	background = university_educated
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Antonio Verga"
 	type = land
 	date = 1836.1.1
-	personality = rebellious
+	personality = 0.182_defence
 	background = 2.751_attack
 }
 
@@ -69,16 +69,16 @@ leader = {
 	name = "Carles Montaner"
 	type = sea
 	date = 1836.1.1
-	personality = resourceful
-	background = rags_to_riches
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 leader = {
 	name = "Giuseppe Settimo"
 	type = sea
 	date = 1836.1.1
-	personality = indecisive
-	background = diplomat
+	personality = 0.182_defence
+	background = 0.563_attack
 }
 
 #Army

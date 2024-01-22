@@ -36,3 +36,8 @@ Post 1.0
 -attempted to make burgundy and scandi less shit, no idea if it worked
 -removed the colonial army stuff
 -fixed a ton of oobs (probably missed some important ones)
+-removed population limit on add to sphere
+-stole the decision to be added to sphere from napoleons legacy big weevil
+-fixed weird scandi decsisions i think
+-made naval russia REAL (probably)
+-removed peace time mobilization

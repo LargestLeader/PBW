@@ -677,7 +677,6 @@ add_to_sphere = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { total_pops = 11000000 }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
 		is_vassal = no

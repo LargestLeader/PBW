@@ -190,7 +190,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		
-		min_build_naval_base = 3
 		min_build_railroad = 4
 		min_build_fort = 1
 		
@@ -308,7 +307,6 @@ categories =  {
 		mine_rgo_size = -10.0
 		mine_rgo_eff = 0.0
 		
-		min_build_naval_base = 3
 		min_build_railroad = 4
 		min_build_fort = 1
 		immigrant_attract = -0.9

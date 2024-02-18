@@ -41,3 +41,4 @@ Post 1.0
 -fixed weird scandi decsisions i think
 -made naval russia REAL (probably)
 -removed peace time mobilization
+-bunch of changes for entara that i will mark down later

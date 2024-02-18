@@ -1,0 +1,43 @@
+MASSIVE IMPACTFUL DIVERGENCES from zombie dod
+-added a pusan tsushima straight
+-added a amomori hakodate straight
+-removed mobilization size from conscription reforms
+-added the numbered general traits
+-burgundy can now form france (this is a good balancing choice i swear)
+-renamed pomeranian culture to baltic german
+-replaced eblians in the baltic with baltic germans
+-scandi can now get latvian and lituanian accepted
+-hungary can now core and accept romanian, serbian, and slovenian
+-circassica got annexed
+-hesse darmstadt starts as a bohemian puppet
+-changed courland and prussia's primary culture to baltic german from elbian
+-moved cleaves into the rheinland state and germanified it
+-eisenstadt is now an austrian core
+-alsace is now german cores
+-gave aschaffenburg to hesse-kassel from bavaria
+-removed the naval engeneering requirements on ship inventions
+-france can assimilate anglois pops by decision if it has all its cores
+-vinland now starts with a couple of province that were uncolonized
+-removed increase description decision
+-added in renomod army stats but not navy ones
+-renamed novgorod
+-incas is now civilized
+-the -20 assimilation chance from culture cores has been removed
+-stole the hre cb from potat dod 
+-changed some national values for balance
+-fixed some oobs with new general traits
+
+Post 1.0
+-removed all chinese unciv reforms
+-gave ethiopia a research points from conquest reform
+-removed all the larp requirements from tech schools
+-fixed general traits for like the 8th time
+-fixed positive assimilation modifiers
+-attempted to make burgundy and scandi less shit, no idea if it worked
+-removed the colonial army stuff
+-fixed a ton of oobs (probably missed some important ones)
+-removed population limit on add to sphere
+-stole the decision to be added to sphere from napoleons legacy big weevil
+-fixed weird scandi decsisions i think
+-made naval russia REAL (probably)
+-removed peace time mobilization

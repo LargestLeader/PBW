@@ -60,22 +60,66 @@ political_decisions = {
 				}
 				pop_type = labourers		
 			}
-			}
-			ai_will_do = {
+		}
+		ai_will_do = {
 			factor = 0
+		}
+	}
+
+	zcreate_supply_depot = {
+		picture = supply_depot
+		alert = yes
+		potential = {
+			NOT = { any_owned_province = { has_province_modifier = supply_depot } }
+			ai = no
+		}
+		allow = {
+			capital_scope = { 
+				NOT = { has_province_modifier = supply_depot }
+			}
+			money = 500000
+		}
+		effect = {
+			money = -500000
+			random_owned = {
+				limit = { is_capital = yes }
+				add_province_modifier = { name = supply_depot duration = -1 }
+				province_selector = -1
 			}
 		}
 	}
 
+	zdismantle_supply_depot = {
+		picture = supply_depot
+		alert = no
+		potential = {
+			any_owned_province = { has_province_modifier = supply_depot }
+			ai = no
+		}
+		allow = {
+		}
+		effect = {
+			any_owned = {
+				limit = { has_province_modifier = supply_depot }
+				remove_province_modifier = supply_depot
+			}
+		}
+	}
 
-
-
-
-
-
-
-
-
-
-
+	ghost_neutrality = {
+		picture = supply_depot
+		alert = no
+		potential = {
+			tag = GHO
+			NOT = { has_country_modifier = neutrality }
+		}
+		allow = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = neutrality
+				duration = -1
+			}
+		}
+	}
 }

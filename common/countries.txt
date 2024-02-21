@@ -2,6 +2,7 @@
 
 # Special countries...
 REB 	= 	"countries/rebels.txt"
+GHO		= "countries/Ghost Country.txt"
 
 ##DoD
 HLR		= "countries/Holy Roman Empire.txt"

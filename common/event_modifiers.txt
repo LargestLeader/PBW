@@ -2678,3 +2678,13 @@ purge = {
 	prestige = -0.1
 	icon = 15
 }
+
+###  Supply Depot
+supply_depot = {
+	max_attrition = -100
+	icon = 17
+}
+
+supply_depot_destroyed = {
+	icon = 16
+}

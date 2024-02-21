@@ -4985,6 +4985,7 @@ conquest_any = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { has_country_modifier = neutrality }
 		is_vassal = no
 		always = no
 	}
@@ -5810,6 +5811,7 @@ conquest_low = {
 	can_use = {
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
+		NOT = { has_country_modifier = neutrality }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		OR = {

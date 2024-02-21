@@ -42,6 +42,7 @@ peace_order = {
 treaty_port_casus_belli
 war_reparations
 become_independent
+hre_unification
 dismantle_cb
 dismantle_cb_add
 dismantle_cb_add_new

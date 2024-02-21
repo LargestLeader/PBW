@@ -2376,6 +2376,17 @@ neutrality = {
 	prestige = -0.025
 	icon = 7
 }
+generic_neutrality = {
+	icon = 7
+}
+
+sizing_cooldown = {
+	icon = 7
+}
+
+sizing_cooldown1 = {
+	icon = 7
+}
 
 ### NV Changes ###
 national_confusion = {

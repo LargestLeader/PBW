@@ -5598,6 +5598,35 @@ country_event = {
 	}
 }
 
+#Leave Ghostland
+country_event = {
+	id = 91291
+	title = "Leave Ghostland"
+	desc = "Players are not allowed to interact with the Ghostland"
+
+	trigger = {
+		OR = {
+			GHO = { in_sphere = THIS }
+			alliance_with = GHO
+			military_access = GHO
+		}
+	}
+
+	option = {
+		name = "I won't do it again."
+		diplomatic_influence = {
+			who = GHO
+			value = -400
+		}
+		end_military_access = GHO
+		leave_alliance = GHO
+		relation = {
+			who = GHO
+			value = -400
+		}
+	}
+}
+
 province_event = {
 	id = 91320
 	title = "EVTNAME91320"

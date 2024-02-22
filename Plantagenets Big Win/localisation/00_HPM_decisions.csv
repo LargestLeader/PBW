@@ -3508,3 +3508,7 @@ option_disable_DVG_badboy_title;Disable Divergences Infamy Reduction;;;;;;;;;;;;
 option_disable_DVG_badboy_desc;Disables the -0,4 infamy modifier for Great Powers and the -0,2 infamy modifier for the rest of countries. Not thoroughly tested, use at your own risk.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 integrate_pomeranians_title;Intergrate the Pomeranians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 integrate_pomeranians_desc;The Pomeranian people have been under our rule for a long time, with the proper institutional capabilities we can fully intergrate them.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+option_2_disable_crisis_title;Disable Crisis;;;;;;;;;;;;x
+option_2_disable_crisis_desc; ;;;;;;;;;;;;x
+option_2_enable_crisis_title;Enable Crisis;;;;;;;;;;;;x
+option_2_enable_crisis_desc; ;;;;;;;;;;;;x

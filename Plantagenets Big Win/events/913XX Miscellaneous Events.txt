@@ -5628,6 +5628,71 @@ country_event = {
 	}
 }
 
+#########################################################################
+# 							DISABLE CRISIS								#
+#########################################################################
+
+country_event = {
+	id = 91327
+	title = "EVTNAME91327"
+	desc = "EVTDESC91327"
+	picture = upper_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91327"
+		set_global_flag = enable_crisis
+		country_event = { id = 91332 days = 0 }
+	}
+
+	option = {
+		name = "EVTOPTB91327"
+		set_global_flag = disable_crisis
+		country_event = { id = 91332 days = 0 }
+	}
+}
+
+country_event = {
+	id = 91328
+	title = "Crisis Cooldown"
+
+	trigger = {
+		tag = GHO
+		NOT = { has_global_flag = disable_crisis }
+		NOT = { has_country_modifier = monthly_timer }
+	}
+
+	option = {
+		add_country_modifier = { name = monthly_timer duration = 20 }
+		country_event = { id = 91329 days = 14 }
+		any_country = {
+			any_owned = {
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91329
+	title = "Crisis Cooldown 2"
+
+	is_triggered_only = yes
+
+	option = {
+		any_country = {
+			any_owned = {
+				state_scope = {
+					flashpoint_tension = -100
+				}
+			}
+		}
+	}
+}
+
 province_event = {
 	id = 91320
 	title = "EVTNAME91320"

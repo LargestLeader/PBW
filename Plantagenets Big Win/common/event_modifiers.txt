@@ -2689,3 +2689,7 @@ purge = {
 	prestige = -0.1
 	icon = 15
 }
+
+monthly_timer = {
+	icon = 8
+}

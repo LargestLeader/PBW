@@ -17,14 +17,7 @@ name = "Egyptian Uprising"
 	}
 
 	war_goal = {
-		casus_belli = acquire_state
-		state_province_id = 1738
-		actor = TUN
-		receiver = EGY
-	}
-
-	war_goal = {
-		casus_belli = acquire_core_state
+		casus_belli = acquire_all_cores
 		state_province_id = 1756
 		actor = EGY
 		receiver = TUR

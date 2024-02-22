@@ -4725,6 +4725,7 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		NOT = { has_country_modifier = neutrality }
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv

@@ -547,3 +547,33 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = 135627
+	title = "135627.T" #Claiming South Georgia
+	desc = "135627.D"
+	picture = "Southpole3"
+	
+	trigger = {
+		tag = NAN
+		owns = 2131 #Falklands
+		2133 = { empty = yes } #South Georgia
+		nationalism_n_imperialism = 1
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "135627.A"
+		treasury = -10000
+		2133 = {
+			add_core = THIS
+			secede_province = THIS
+		}
+		2133 = {
+			change_province_name = "South Georgia"
+		}
+	}
+}

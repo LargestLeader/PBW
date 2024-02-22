@@ -15,7 +15,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 15
-			set_global_flag = fall_of_kurland
+			set_country_flag = fall_of_kurland
 			add_accepted_culture = latvian
 			KRL = {
 				country_event = 333016

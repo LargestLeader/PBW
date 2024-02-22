@@ -68,7 +68,6 @@ political_decisions = {
 	tag = BOH 
 	is_greater_power = yes
 	HLR = { exists = no }
-	NOT = { has_global_flag = liberal_revolutions_should_now_fire }
 	}
 	
 	allow = { 

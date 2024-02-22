@@ -2376,6 +2376,17 @@ neutrality = {
 	prestige = -0.025
 	icon = 7
 }
+generic_neutrality = {
+	icon = 7
+}
+
+sizing_cooldown = {
+	icon = 7
+}
+
+sizing_cooldown1 = {
+	icon = 7
+}
 
 ### NV Changes ###
 national_confusion = {
@@ -2677,14 +2688,4 @@ purge = {
 	global_population_growth = -0.01
 	prestige = -0.1
 	icon = 15
-}
-
-###  Supply Depot
-supply_depot = {
-	max_attrition = -100
-	icon = 17
-}
-
-supply_depot_destroyed = {
-	icon = 16
 }

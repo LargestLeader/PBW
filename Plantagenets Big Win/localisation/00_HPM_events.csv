@@ -11771,6 +11771,3 @@ EVT6016807PTB;Let crisis be unlocked from now on, like in Vanilla.;;;;;;;;;;;;;;
 EVTNAME95595;Ethiopian Rule;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC95595;Now that Imperial rule has been restored, we must endeavour to spread control over lands that neighbour our own but which are rightfully part of our Empire.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 95595.A;So must it be!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTNAME91320;Supply Depot Destroyed!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTDESC91320;Our supply depot in $PROVINCENAME$ has been destroyed in the recent fighting.!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-EVTOPTA91320;Damn!;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

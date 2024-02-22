@@ -2,7 +2,7 @@ political_decisions = {
 	austral_destiny = { 
 	picture = zuharra
 		potential = { 
-		tag = GAN 
+		tag = DNG 
 		NOT = { has_country_flag = austral_destiny }
 		}
 		
@@ -18,28 +18,28 @@ political_decisions = {
 		badboy = 10
 		set_country_flag = austral_destiny
 			AST_1097 = { 
-				add_core = GAN 
+				add_core = DNG 
 			}
 			ENG_2509 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			ENG_2513 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			FRA_1097 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			NET_1451 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			AST_2529 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			GER_2531 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			AST_2534 = {
-				add_core = GAN
+				add_core = DNG
 			}
 			TUI = { all_core = { add_core = THIS } 
 			}
@@ -51,7 +51,7 @@ political_decisions = {
 	
 	assimilate_tributaries = { 
 		potential = { 
-		tag = GAN
+		tag = DNG
 		NOT = { has_country_flag = assimilate_tributaries } 
 		NOT = { has_country_flag = aborigine_acc } 
 		}
@@ -65,7 +65,7 @@ political_decisions = {
 		set_country_flag = assimilate_tributaries 
 		any_owned = {
 				limit = {
-					is_core = GAN
+					is_core = DNG
 				}
 				add_province_modifier = {
 					name = assimilate_tributaries_modif

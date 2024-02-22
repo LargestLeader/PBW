@@ -3508,10 +3508,3 @@ option_disable_DVG_badboy_title;Disable Divergences Infamy Reduction;;;;;;;;;;;;
 option_disable_DVG_badboy_desc;Disables the -0,4 infamy modifier for Great Powers and the -0,2 infamy modifier for the rest of countries. Not thoroughly tested, use at your own risk.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 integrate_pomeranians_title;Intergrate the Pomeranians;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 integrate_pomeranians_desc;The Pomeranian people have been under our rule for a long time, with the proper institutional capabilities we can fully intergrate them.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-zcreate_supply_depot_title;§GCreate Supply Depot.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-zcreate_supply_depot_desc;A province with a supply depot will reduce attrition to 0 regardless of supply cap and should be used as a rallying point for mobilized troops. You can only have one supply depot at a time, it must not be overseas, and if a battle occurs in a province with a supply depot or the province is occupied by an enemy army it will be destroyed.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-zdismantle_supply_depot_title;§RDismantle Supply Depot.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-zdismantle_supply_depot_desc;Removes the Supply Depot modifier from all provinces..;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-supply_depot;Supply Depot.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-supply_depot_destroyed;Supply Depot Recently Destroyed.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-supply_depot_destroyed_desc;We require time to procure new supplies before we can build another supply depot..;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

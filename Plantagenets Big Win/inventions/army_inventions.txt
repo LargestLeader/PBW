@@ -543,7 +543,7 @@ tank_exploits = {
 		tank = {
 			attack = 2
 			defence = 2
-			supply_consumption = 1
+			supply_consumption = 0.5
 			siege = 1				
 		}	
 	}
@@ -1158,6 +1158,7 @@ light_tank = {
 		tank = {
 			attack = 2
 			defence = 2
+			maximum_speed = 1
 			supply_consumption = 0.05
 		}
 	}
@@ -1181,6 +1182,8 @@ armoured_cars = {
 	}
 	effect = {
 		tank = {
+			attack = 2
+			defence = 4
 			maximum_speed = 1
 			discipline = 0.5
 			supply_consumption = 0.5
@@ -1701,6 +1704,7 @@ t_air_superiority = {
 	effect = {
 		plane = {
 			attack = 1
+			defence = 1
 			defence = 0.6
 			discipline = 0.45
 			default_organisation = 5
@@ -1730,8 +1734,8 @@ flying_circus_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
-			defence = 0.5
+			attack = 1
+			defence = 1
 			default_organisation = 5
 		}
 	}
@@ -1759,8 +1763,8 @@ force_substitution_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
-			defence = 0.5
+			attack = 1
+			defence = 1
 			default_organisation = 5
 		}
 	}
@@ -1784,8 +1788,8 @@ battlefield_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
-			support = 1
+			attack = 1
+			defence = 1
 			default_organisation = 5
 		}
 	}
@@ -1813,7 +1817,7 @@ operational_destruction_doctrine = {
 	}
 	effect = {
 		plane = {
-			attack = 0.5
+			attack = 1
 			discipline = 0.45
 			support = 1
 			default_organisation = 5

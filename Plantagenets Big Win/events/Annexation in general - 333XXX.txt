@@ -490,7 +490,7 @@ country_event = {
 				}
 
 				defender_goal = {
-					casus_belli = acquire_core_state
+					casus_belli = acquire_all_cores
 					state_province_id = 1384
 				}
 		}
@@ -556,7 +556,7 @@ country_event = {
 				}
 
 				defender_goal = {
-					casus_belli = acquire_core_state
+					casus_belli = acquire_all_cores
 					state_province_id = 1388
 				}
 		}
@@ -622,7 +622,7 @@ country_event = {
 				}
 
 				defender_goal = {
-					casus_belli = acquire_core_state
+					casus_belli = acquire_all_cores
 					state_province_id = 1297
 				}
 		}
@@ -688,7 +688,7 @@ country_event = {
 				}
 
 				defender_goal = {
-					casus_belli = acquire_core_state
+					casus_belli = acquire_all_cores
 					state_province_id = 1306
 				}
 		}

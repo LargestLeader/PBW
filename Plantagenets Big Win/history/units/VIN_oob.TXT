@@ -15,8 +15,8 @@ leader = {
 	name = "Leif Torstensson"
 	type = land
 	date = 1836.1.1
-	personality = 0.182_defence
-	background = 0.563_attack
+	personality = 1.202_defence
+	background = 2.751_attack
 }
 
 leader = {

@@ -377,6 +377,11 @@ population_resettlement = {
 	icon = 19
 }
 
+china_rp_nerf = {
+	research_points_on_conquer = -5
+	icon = 18
+}
+
 pearl_season = {
 	local_RGO_output = -0.1
 	icon = 11
@@ -2385,6 +2390,10 @@ sizing_cooldown = {
 }
 
 sizing_cooldown1 = {
+	icon = 7
+}
+
+sizing_cooldown2 = {
 	icon = 7
 }
 

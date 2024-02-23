@@ -17,8 +17,8 @@ leader = {
 	name = "Juan Manuel Santos"
 	type = land
 	date = 1836.1.1
-	personality = 0.182_defence
-	background = 0.563_attack
+	personality = 3.384_defence
+	background = 3.369_attack
 }
 
 leader = {

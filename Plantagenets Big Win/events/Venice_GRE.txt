@@ -835,7 +835,7 @@ country_event = {
 	war = {
 			target = VEN
 				attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 846
 				}
 				defender_goal = { 
@@ -881,11 +881,11 @@ country_event = {
 	war = {
 			target = VEN
 				attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 846
 				}
 				attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 869
 				}
 				defender_goal = { 

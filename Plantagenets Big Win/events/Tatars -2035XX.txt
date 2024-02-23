@@ -106,7 +106,7 @@ country_event = {
 	war = {
 			target = MUS
 			attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 998
 			}
 			call_ally = yes
@@ -138,7 +138,7 @@ country_event = {
 	war = {
 			target = MUS
 			attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 998
 			}
 		}

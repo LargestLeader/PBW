@@ -57,7 +57,7 @@ country_event = {
 		war = {
 			target = NEJ
 			attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_all_cores
 				state_province_id = 1151
 			}
 

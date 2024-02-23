@@ -1372,3 +1372,29 @@ country_event = {
 	}
 }
 	
+country_event = {
+	id = 999990909098
+	title = "Shmip shmozo"
+	desc = "oof"
+	picture = "disease"
+	
+	trigger = {
+		OR = {
+			tag = TAI
+			tag = MCK
+		}
+		civilized = no
+		NOT = { has_country_modifier = china_rp_nerf }
+	}
+	
+	mean_time_to_happen = {
+		months = 0
+	}
+	option = {
+		name = "EVTOPTA99999"
+		add_country_modifier = {
+			name = china_rp_nerf
+			duration = -1
+		}
+	}
+}

@@ -478,8 +478,6 @@ political_decisions = {
 			owns = 408
 			owns = 418
 			owns = 438
-			owns = 434
-			owns = 420
 			BRG = { all_core = { owned_by = BRG }}
 		}
 		effect = {

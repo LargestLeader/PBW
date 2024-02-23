@@ -14,8 +14,8 @@ country_event = {
 	option = {
 		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 80000 }  } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
 		any_country = { any_owned = { limit = { state_scope = { total_pops = 80000 NOT = { total_pops = 300000 }  } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 300000 NOT = { total_pops = 650000 }  } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 650000 NOT = { total_pops = 900000 }  } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 300000 NOT = { total_pops = 680000 }  } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 680000 NOT = { total_pops = 900000 }  } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
 		any_country = { any_owned = { limit = { state_scope = { total_pops = 900000 }  } add_core = HUG remove_core = STR remove_core = SMA remove_core = MED remove_core = LRG } }
 	}
 }

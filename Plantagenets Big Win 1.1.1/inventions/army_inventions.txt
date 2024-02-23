@@ -706,7 +706,7 @@ flintlock_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 0.5
+			attack = 1.5
 		}
 		guard = {
 			attack = 1.7

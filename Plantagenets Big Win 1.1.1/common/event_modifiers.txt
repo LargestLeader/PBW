@@ -36,6 +36,9 @@ icon = 8
 
 }
 
+my_sphere_is_moving_on_its_own = {
+	icon = 8
+}
 
 mercantilism = {
 	min_tariff = 0.5

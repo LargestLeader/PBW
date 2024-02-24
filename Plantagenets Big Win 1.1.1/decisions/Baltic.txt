@@ -152,26 +152,4 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-	romanian_cherson = { 
-		potential = { 
-		tag = ROM 
-		NOT = { has_country_flag = ROM_cherson }
-			}
-			
-		allow = { 
-		nationalism_n_imperialism = 1 
-		rank = 16 
-		OR = { 
-		all_core = { owned_by = THIS }
-		war_policy = jingoism
-			}
-		}	
-		
-		effect = { 
-		set country_flag = ROM_cherson
-		badboy = 5 
-		RUS_965 = { add_core = ROM }
-		}
-	}	
 }	

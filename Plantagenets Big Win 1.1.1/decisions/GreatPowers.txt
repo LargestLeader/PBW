@@ -76,7 +76,7 @@ political_decisions = {
 				is_greater_power = yes
 				tag = CHI
 				tag = TPG
-				tag = 
+				tag = MCK
 			}
 			ai = no
 			year = 1837

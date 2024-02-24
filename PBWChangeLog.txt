@@ -61,3 +61,14 @@ Post 1.0
 	-ghostland nation
 	-event to remove ghost troops
 	-ottoman name placement
+
+1.1.2
+-fixed romania decisions
+-fixed the sphereing decision
+-increased the threshhold to be a large state to 680k from 650k in 1836
+-made suez its own state
+-made forming france as burgundy slightly easier
+-buffed moldovia a bit
+-moldovia no longer needs dobrudja to form romania
+-gave the caliphate ethiopian cultures accepted if they take the claim ethiopia decision
+-gave romania a jingoist party

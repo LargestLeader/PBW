@@ -16,7 +16,7 @@ name = "Macedonian Uprising"
 	}
 
 	war_goal = {
-		casus_belli = acquire_all_cores
+		casus_belli = acquire_state
 		state_province_id = 823
 		actor = MAC
 		receiver = TUR

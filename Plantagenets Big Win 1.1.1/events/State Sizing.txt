@@ -12,10 +12,10 @@ country_event = {
 	immediate = { add_country_modifier = { name = sizing_cooldown duration = 350 } }
 
 	option = {
-		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 80000 }  } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 80000 NOT = { total_pops = 300000 }  } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 300000 NOT = { total_pops = 680000 }  } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 680000 NOT = { total_pops = 900000 }  } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 80000 } owner = { war = no } } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 80000 NOT = { total_pops = 300000 } owner = { war = no } } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 300000 NOT = { total_pops = 680000 } owner = { war = no } } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 680000 NOT = { total_pops = 900000 } owner = { war = no } } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
 		any_country = { any_owned = { limit = { state_scope = { total_pops = 900000 }  } add_core = HUG remove_core = STR remove_core = SMA remove_core = MED remove_core = LRG } }
 	}
 }
@@ -34,10 +34,10 @@ country_event = {
 	immediate = { add_country_modifier = { name = sizing_cooldown1 duration = 350 } }
 
 	option = {
-		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 100000 }  } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 120000 NOT = { total_pops = 400000 }  } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 400000 NOT = { total_pops = 750000 }  } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 750000 NOT = { total_pops = 1100000 }  } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 100000 } owner = { war = no } } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 120000 NOT = { total_pops = 400000 } owner = { war = no } } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 400000 NOT = { total_pops = 750000 } owner = { war = no } } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 750000 NOT = { total_pops = 1100000 } owner = { war = no } } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
 		any_country = { any_owned = { limit = { state_scope = { total_pops = 1100000 }  } add_core = HUG remove_core = STR remove_core = SMA remove_core = MED remove_core = LRG } }
 	}
 }		
@@ -55,11 +55,11 @@ country_event = {
 	immediate = { add_country_modifier = { name = sizing_cooldown2 duration = 350 } }
 
 	option = {
-		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 100000 }  } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 120000 NOT = { total_pops = 400000 }  } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 400000 NOT = { total_pops = 850000 }  } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 850000 NOT = { total_pops = 1200000 }  } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
-		any_country = { any_owned = { limit = { state_scope = { total_pops = 1200000 }  } add_core = HUG remove_core = STR remove_core = SMA remove_core = MED remove_core = LRG } }
+		any_country = { any_owned = { limit = { state_scope = { NOT = { total_pops = 100000 } owner = { war = no } } } add_core = STR remove_core = SMA remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 120000 NOT = { total_pops = 400000 } owner = { war = no } } } add_core = SMA remove_core = STR remove_core = MED remove_core = LRG remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 400000 NOT = { total_pops = 850000 } owner = { war = no } } } add_core = MED remove_core = STR remove_core = SMA remove_core = LRG remove_core = HUG } }		
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 850000 NOT = { total_pops = 1200000 } owner = { war = no } } } add_core = LRG remove_core = STR remove_core = SMA remove_core = MED remove_core = HUG } }
+		any_country = { any_owned = { limit = { state_scope = { total_pops = 1200000 } owner = { war = no } } add_core = HUG remove_core = STR remove_core = SMA remove_core = MED remove_core = LRG } }
 	}
 }		
 

@@ -2132,7 +2132,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size= 250
+		size= 2250
 
 	}
 
@@ -2157,7 +2157,7 @@
 	soldiers = {
 		culture = ruthenian
 		religion = orthodox
-		size= 150
+		size= 1150
 
 	}
 
@@ -2590,7 +2590,7 @@
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size= 450
+		size= 3000
 
 	}
 

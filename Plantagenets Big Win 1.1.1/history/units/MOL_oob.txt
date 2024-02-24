@@ -2,8 +2,8 @@ leader = {
 	name = "Grigore Catelli"
 	type = land
 	date = 1836.1.1
-	personality = cruel
-	background = armchair_general
+	personality = 2.32_defence
+	background = 0.563_attack
 }
 
 army = {
@@ -25,6 +25,24 @@ army = {
 		name= "3. Infanterie Moldovei"
 		type = infantry
 		home = 673
+	}
+
+	regiment = {
+		name= "4. Infanterie Moldovei"
+		type = infantry
+		home = 676
+	}
+
+	regiment = {
+		name= "5. Infanterie Moldovei"
+		type = infantry
+		home = 671
+	}
+
+	regiment = {
+		name= "6. Infanterie Moldovei"
+		type = infantry
+		home = 663
 	}
 }
 

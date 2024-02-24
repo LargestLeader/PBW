@@ -189,11 +189,6 @@ political_decisions = {
 			civilized = yes
 			NOT = { part_of_sphere = yes }
 			NOT = { war = yes }
-			UAR = {
-				all_core = {  
-					owned_by = THIS						
-				}
-			}
 			ETH = {
 				all_core = {
 					owned_by = THIS	
@@ -210,6 +205,10 @@ political_decisions = {
 				add_core = THIS
 			}
 			set_country_flag = UAR_ETH
+			add_accepted_culture = amhara
+			add_accepted_culture = tigray
+			add_accepted_culture = oromo
+			add_accepted_culture = cushitic
 		}
 		ai_will_do = {
 			factor = 1

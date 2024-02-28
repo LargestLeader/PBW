@@ -404,6 +404,7 @@ peacetime_mobilization = {
 	ruling_party_support = -0.40
 	loan_interest = 1
 	cb_generation_speed_modifier = -0.2
+	research_points_modifier = -1
 	prestige = -0.05
 	icon = 6
 }

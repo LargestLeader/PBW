@@ -27,7 +27,7 @@ MASSIVE IMPACTFUL DIVERGENCES from zombie dod
 -changed some national values for balance
 -fixed some oobs with new general traits
 
-Post 1.0
+1.1
 -removed all chinese unciv reforms
 -gave ethiopia a research points from conquest reform
 -removed all the larp requirements from tech schools
@@ -72,3 +72,11 @@ Post 1.0
 -moldovia no longer needs dobrudja to form romania
 -gave the caliphate ethiopian cultures accepted if they take the claim ethiopia decision
 -gave romania a jingoist party
+
+Post Entara game version
+-removed beornian cores on england
+-beornia no longer starts with english accepted
+-holy britannian empire now gets amazonian and lotharignian accepted if it owns all of amazonie and lotharingia's cores
+-all war goals on strategic states have had their infamy cost halved
+-added a reaserch point debuff to peace time mobilization to deter permanate mobilization
+-gave aschaffenburg to hesse-darmstadt

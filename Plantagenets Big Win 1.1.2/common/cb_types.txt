@@ -1722,7 +1722,6 @@ humiliate = {
 	}
 
 	on_po_accepted = {
-		}
 		THIS = { prestige = 5 }
 		random_owned = { limit = { owner = { prestige = 0 } } THIS = { prestige = 2.5 } }
 		random_owned = { limit = { owner = { prestige = 50 } } THIS = { prestige = 2.5 } }

@@ -150,17 +150,11 @@
 		religion = protestant
 		size = 5600
 	}
-	
-	soldiers = {
-		culture = scandinavian
-		religion = protestant
-		size = 3000
-	}
 
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size = 1000
+		size = 1300
 	}
 	
 	farmers = {
@@ -207,7 +201,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size = 3000
+		size = 1000
 	}
 
 	soldiers = {
@@ -245,7 +239,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size = 1100
+		size = 400
 	}
 
 	farmers = {
@@ -355,12 +349,6 @@
 		culture = scandinavian
 		religion = protestant
 		size = 6500
-	}
-	
-	soldiers = {
-		culture = scandinavian
-		religion = protestant
-		size = 3000
 	}
 
 	soldiers = {

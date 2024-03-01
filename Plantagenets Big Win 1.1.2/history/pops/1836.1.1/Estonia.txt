@@ -50,12 +50,6 @@
         size = 4300
     }
 
-    soldiers = {
-        culture = scandinavian
-        religion = protestant
-        size = 1500
-    }
-
     farmers = {
         culture = scandinavian
         religion = protestant

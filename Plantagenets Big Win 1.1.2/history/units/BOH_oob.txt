@@ -144,13 +144,13 @@ army = {
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
-		home = 625
+		home = 681
 	}
 	
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
-		home = 625
+		home = 552
 	}
 }
 
@@ -172,13 +172,13 @@ army = {
 	regiment = {
 		name= "3.1st Division"
 		type = infantry
-		home = 631
+		home = 629
 	}
 
 	regiment = {
 		name= "4.1st Division"
 		type = infantry
-		home = 631
+		home = 628
 	}
 
 	regiment = {
@@ -190,13 +190,13 @@ army = {
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
-		home = 631
+		home = 626
 	}
 	
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
-		home = 625
+		home = 629
 	}
 }
 
@@ -206,13 +206,13 @@ army = {
 	regiment = {
 		name= "1.1st Division"
 		type = infantry
-		home = 549
+		home = 684
 	}
 
 	regiment = {
 		name= "2.1st Division"
 		type = infantry
-		home = 549
+		home = 684
 	}
 
 	regiment = {
@@ -236,13 +236,13 @@ army = {
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
-		home = 682
+		home = 685
 	}
 	
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
-		home = 631
+		home = 688
 	}
 }
 
@@ -252,25 +252,25 @@ army = {
 	regiment = {
 		name= "1.1st Division"
 		type = infantry
-		home = 549
+		home = 556
 	}
 
 	regiment = {
 		name= "2.1st Division"
 		type = infantry
-		home = 549
+		home = 552
 	}
 
 	regiment = {
 		name= "3.1st Division"
 		type = infantry
-		home = 549
+		home = 552
 	}
 
 	regiment = {
 		name= "4.1st Division"
 		type = infantry
-		home = 549
+		home = 555
 	}
 
 	regiment = {
@@ -282,13 +282,13 @@ army = {
 	regiment = {
 		name= "4.1st Division"
 		type = artillery
-		home = 682
+		home = 556
 	}
 	
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
-		home = 682
+		home = 551
 	}
 }
 
@@ -304,13 +304,13 @@ army = {
 	regiment = {
 		name= "2.1st Division"
 		type = infantry
-		home = 558
+		home = 629
 	}
 
 	regiment = {
 		name= "3.1st Division"
 		type = infantry
-		home = 558
+		home = 560
 	}
 
 	regiment = {
@@ -334,6 +334,6 @@ army = {
 	regiment = {
 		name= "5.1st Division"
 		type = hussar
-		home = 682
+		home = 683
 	}
 }

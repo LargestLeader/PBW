@@ -53,7 +53,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size= 3000
+		size= 16000
 
 	}
 
@@ -385,7 +385,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size= 1500
+		size= 7000
 
 	}
 
@@ -468,7 +468,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size= 1050
+		size= 5050
 
 	}
 
@@ -565,7 +565,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size= 1900
+		size= 7000
 
 	} 
 
@@ -678,7 +678,7 @@
 	soldiers = {
 		culture = czech
 		religion = catholic
-		size= 750
+		size= 3000
 
 	}
 
@@ -870,7 +870,7 @@
 	soldiers = {
 		culture = south_german
 		religion = catholic
-		size= 25
+		size= 5000
 
 	}
 

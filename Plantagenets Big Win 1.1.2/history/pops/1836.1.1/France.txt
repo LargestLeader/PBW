@@ -259,6 +259,12 @@
 		size = 400
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
@@ -1011,6 +1017,12 @@
 		size = 1650
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	clergymen = {
 		culture = anglois
 		religion = catholic
@@ -1055,6 +1067,12 @@
 		size = 5250
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	farmers = {
 		culture = anglois
 		religion = catholic
@@ -1085,6 +1103,12 @@
 		culture = anglois
 		religion = catholic
 		size = 101600
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 }
 #Caen (1088000/272000 POPS)
@@ -1304,6 +1328,12 @@
 		culture = anglois
 		religion = catholic
 		size = 10000
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	labourers = {
@@ -2144,6 +2174,12 @@
 		size = 850
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
@@ -2252,6 +2288,12 @@
 		size = 750
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
@@ -2278,6 +2320,12 @@
 		size = 600
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
@@ -2302,6 +2350,12 @@
 		culture = french
 		religion = catholic
 		size = 750
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -2376,6 +2430,12 @@
 		size = 1725
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = french
 		religion = catholic
@@ -2400,6 +2460,12 @@
 		culture = french
 		religion = catholic
 		size = 900
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -2598,6 +2664,12 @@
 		size = 1050
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = provencal
 		religion = protestant
@@ -2622,6 +2694,12 @@
 		culture = provencal
 		religion = protestant
 		size = 725
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -2967,6 +3045,12 @@
 		size = 4000
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	farmers = {
 		culture = provencal
 		religion = protestant
@@ -3067,6 +3151,12 @@
 		culture = anglois
 		religion = catholic
 		size = 1375
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -3222,6 +3312,12 @@
 		size = 1250
 	}
 
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
+	}
+
 	artisans = {
 		culture = provencal
 		religion = protestant
@@ -3246,6 +3342,12 @@
 		culture = provencal
 		religion = protestant
 		size = 750
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {
@@ -3543,6 +3645,12 @@
 		culture = provencal
 		religion = protestant
 		size = 625
+	}
+
+	soldiers = {
+		culture = anglois
+		religion = catholic
+		size = 300
 	}
 
 	artisans = {

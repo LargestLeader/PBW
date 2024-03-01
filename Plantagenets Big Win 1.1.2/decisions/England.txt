@@ -222,39 +222,6 @@ political_decisions = {
 		}
 	}
 	
-	end_DUA_ENL = { 
-		potential = { 
-				OR = { 
-					tag = ENL 
-					tag = ENG 
-				}
-				DUA = { exists = yes }
-				FRA = { exists = no }
-			}
-	
-		allow = {		
-			all_core = { owned_by = THIS }
-			DUA = { ai= yes }
-			OR = { 
-				AND = { 
-					is_greater_power = yes 
-					DUA = { is_greater_power = no }
-					}
-				AND = { 
-					DUA = { is_greater_power = yes }
-					THIS = { rank = 4 }
-					}
-				}
-		
-			}
-		
-		effect = { 
-		prestige = 50 
-		DUA = { country_event = 650295 }
-		}
-	
-	}
-	
 	English_north_ENL = { 
 		potential = { 
 			OR = { tag = ENL tag = ENG }

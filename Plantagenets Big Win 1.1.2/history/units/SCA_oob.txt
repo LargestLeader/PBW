@@ -344,19 +344,19 @@ army = {
 	regiment = {
 		name= "1.1. Infanteridivision"
 		type = infantry
-		home = 322
+		home = 366
 	}
 
 	regiment = {
 		name= "2.1. Infanteridivision"
 		type = infantry
-		home = 271
+		home = 2557
 	}
 
 	regiment = {
 		name= "3.1. Infanteridivision"
 		type = infantry
-		home = 372
+		home = 332
 	}
 }
 

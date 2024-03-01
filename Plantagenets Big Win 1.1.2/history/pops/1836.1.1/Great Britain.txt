@@ -314,19 +314,6 @@
 		size = 3000
 
 	}
-
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 3000
-	}
-	
-	soldiers = {
-		culture = scottish
-		religion = protestant
-		size = 3000
-	}
-	
 	farmers = {
 		culture = scottish
 		religion = protestant
@@ -360,7 +347,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size = 3000
+		size = 2000
 	}
 	
 	farmers = {

@@ -1684,7 +1684,7 @@
 	soldiers = {
 		culture = north_german
 		religion = catholic
-		size= 3000
+		size= 9000
 
 	}
 

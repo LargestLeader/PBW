@@ -29,7 +29,7 @@
     soldiers = {
         culture = latvian
         religion = protestant
-        size = 2000
+        size = 500
     }
 
     farmers = {
@@ -72,12 +72,6 @@
         culture = lithuanian
         religion = catholic
         size = 1500
-    }
-
-    soldiers = {
-        culture = lithuanian
-        religion = catholic
-        size = 900
     }
 
     clergymen = {

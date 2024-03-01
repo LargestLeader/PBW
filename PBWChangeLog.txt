@@ -80,3 +80,6 @@ Post Entara game version
 -all war goals on strategic states have had their infamy cost halved
 -added a reaserch point debuff to peace time mobilization to deter permanate mobilization
 -gave aschaffenburg to hesse-darmstadt
+-removed englands infinite prestige button 
+-removed some surviving bad hpm mechanics (sound_dues still existed)
+-blindly rebalanced scandi and bohemia soldier pops to hopefully make things better

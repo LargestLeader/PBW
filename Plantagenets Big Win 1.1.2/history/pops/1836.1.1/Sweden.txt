@@ -160,7 +160,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size= 1100
+		size= 300
 
 	}
 
@@ -240,13 +240,6 @@
 		size = 6000
 	}
 	
-	soldiers = {
-		culture = scandinavian
-		religion = protestant
-		size = 3000
-
-	}
-
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
@@ -355,7 +348,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size= 1100
+		size= 300
 
 	}
 
@@ -421,7 +414,7 @@
 	soldiers = {
 		culture = scandinavian
 		religion = protestant
-		size= 1100
+		size= 400
 
 	}
 
@@ -573,7 +566,7 @@
 	clergymen = {
 		culture = scandinavian
 		religion = protestant
-		size = 50
+		size = 200
 	}
 
 	artisans = {
@@ -592,7 +585,7 @@
 	farmers = {
 		culture = scandinavian
 		religion = protestant
-		size = 9050
+		size = 39050
 	}
 }
 #Kalmar (182000/45500 POPS)
@@ -691,13 +684,6 @@
 		culture = scandinavian
 		religion = protestant
 		size = 7000
-	}
-	
-	soldiers = {
-		culture = scandinavian
-		religion = protestant
-		size= 3000
-
 	}
 
 	soldiers = {

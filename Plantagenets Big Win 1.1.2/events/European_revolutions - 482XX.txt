@@ -686,6 +686,35 @@ country_event = { #Danubian Federation
 	}
 }
 
+country_event = {
+	id = 99776655
+	title = "CONGR1.T"
+	desc = "CONGR3.D"
+
+	major = yes
+
+
+	trigger = {
+		NOT = { has_global_flag = DVG_infamy }
+		FRA = { exists = yes }
+		NOT = { tag = FRA }
+		NOT = { BRG = { exists = yes } }
+		is_greater_power = yes
+		continent = europe
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option - {
+		name = "48253.A"
+		set_global_flag = DVG_infamy
+		badboy = -3
+		prestige = 10
+	}
+}
+
 country_event = { #Confederation at the Elbe
 	id = 48253
 	title = "CONGR1.T"

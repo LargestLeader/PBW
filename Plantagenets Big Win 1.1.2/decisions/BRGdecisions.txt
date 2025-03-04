@@ -528,7 +528,7 @@ political_decisions = {
 				}
 				add_province_modifier = {
 					name = return_of_the_french
-					duration = 1825
+					duration = 3650
 				}
 			}
 			any_owned = {

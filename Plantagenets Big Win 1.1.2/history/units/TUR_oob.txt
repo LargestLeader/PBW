@@ -202,7 +202,7 @@ army = {
 	regiment = {
 		name= "1. Redif Halab"
 		type = infantry
-		home = 1746
+		home = 897
 	}
 
 	regiment = {

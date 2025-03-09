@@ -84,6 +84,18 @@ Post Entara game version
 -removed some surviving bad hpm mechanics (sound_dues still existed)
 -blindly rebalanced scandi and bohemia soldier pops to hopefully make things better
 
-Untitled Return Version
+1.2
 -fixed bug with french core removal breaking burgundy decisions
 -pushed some changes that I don't remember making and I also don't know what they do
+-Added Reno Migration With North and South America
+-Randomly incrased assimilation from literacy without testing it
+-removed ottoman rebels
+-adjusted egypt reforms and provinces
+-egypt and the ottomans do not start at war
+-iraq and qingqiu have 4 mil tech instead of 2 mil tech (huge)
+-illyria has serbian accepted now
+-accepted pop requiremen for national focus is 1000 instead of 400000
+-the decision to hyper assimilate anglois pops as France has been removed
+-scandi now gets irish cored and accepted
+-rturned treaty ports to malacca
+-nusantra is easier to form

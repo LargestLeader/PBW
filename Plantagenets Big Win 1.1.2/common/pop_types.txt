@@ -764,17 +764,23 @@ emigration_chance = {
 #general assimilation mtth, same for all pops
 assimilation_chance = {
 	factor = 1
-
 		modifier = {
-			factor = 0.1
+			factor = 0.2
+			literacy = 0.3
+		}modifier = {
+			factor = 0.2
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.2
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			literacy = 0.8
 		}
 	
@@ -800,11 +806,6 @@ assimilation_chance = {
 			factor = 0.2
 			luxury_needs = 0.9
 		}
-	
-	modifier = {
-		factor = -0.2
-		not = { is_state_religion = yes }
-	}
 	
 	modifier = {
 		factor = -2

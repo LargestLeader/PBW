@@ -499,8 +499,6 @@ country_event = { ######All cultures accepted
 	
 	option = { 
 	name = "650301.A"
-	any_owned = { remove_core = FRA remove_core = ENL }
-	any_country = { any_owned = { remove_core = FRA remove_core = ENL } }
 	any_pop = { militancy = -3 }
 	add_accepted_culture = french 
 	add_accepted_culture = english 
@@ -580,8 +578,6 @@ country_event = { ######All cultures accepted
 	
 	option = { 
 	name = "650311.A"
-	any_owned = { remove_core = FRA remove_core = ENL }
-	any_country = { any_owned = { remove_core = FRA remove_core = ENL } }
 	any_pop = { militancy = -3 }
 	add_accepted_culture = french 
 	add_accepted_culture = english 
@@ -668,8 +664,6 @@ country_event = { ######All cultures accepted
 	
 	option = { 
 	name = "650321.A"
-	any_owned = { remove_core = FRA remove_core = ENL }
-	any_country = { any_owned = { remove_core = FRA remove_core = ENL } }
 	any_pop = { militancy = -3 }
 	add_accepted_culture = french 
 	add_accepted_culture = english 

@@ -382,6 +382,7 @@ population_resettlement = {
 
 china_rp_nerf = {
 	research_points_on_conquer = -5
+	research_points_modifier = -5
 	icon = 18
 }
 

@@ -509,7 +509,7 @@ political_decisions = {
 	}
 	french_nationalism = {
 		potential = {
-			tag = FRA
+			tag = IRE
 			has_country_flag = rex_burgundicum
 			NOT = { has_global_flag = french_nationalism }
 		}

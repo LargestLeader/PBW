@@ -52,10 +52,18 @@ set_country_flag = sunni_country
 finance_reform = yes_finance_reform
 foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
+military_constructions = yes_military_constructions
+army_schools = yes_army_schools
+admin_reform = yes_admin_reform
+industrial_construction = yes_industrial_construction
 
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
+post_napoleonic_thought = 1
+army_command_principle = 1
+enlightenment_thought = 1
+piston_steam_engine = 1
 
 # Inventions
 
@@ -80,6 +88,10 @@ foreign_weapons = yes_foreign_weapons
 foreign_officers = yes_foreign_officers
 finance_reform = finance_reform_two #International Debt
 education_reform = yes_education_reform
+military_constructions = yes_military_constructions
+army_schools = yes_army_schools
+admin_reform = yes_admin_reform
+industrial_construction = yes_industrial_construction
 
 # Technologies
 military_staff_system = 1

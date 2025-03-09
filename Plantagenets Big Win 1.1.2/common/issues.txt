@@ -1228,7 +1228,7 @@ military_reforms = {
 			land_defense_modifier = 0.1
 			technology_cost = 11000
 			civilization_progress_modifier = 0.1
-
+			research_points_on_conquer = 0.25
 			on_execute = {
 				effect = {
 					activate_technology = flintlock_rifles

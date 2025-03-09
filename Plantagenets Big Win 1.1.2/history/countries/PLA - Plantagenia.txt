@@ -38,6 +38,7 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 set_country_flag = new_world_nation
+set_country_flag = north_american_immigrant_nation
 
 ruling_party = PLA_conservative_2 # Parti d'Avant Garde
 upper_house = {

@@ -53,11 +53,16 @@ set_country_flag = sunni_country
 
 
 # Technologies
+post_napoleonic_thought = 1
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
+army_command_principle = 1
 basic_chemistry = 1
 piston_steam_engine = 1
+private_banks = 1
+no_standard = 1
 late_enlightenment_philosophy = 1
 enlightenment_thought = 1
+introspectionism = 1
 
 oob = "IRQ_oob.txt"

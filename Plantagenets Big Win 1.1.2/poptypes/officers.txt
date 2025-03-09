@@ -74,125 +74,161 @@ luxury_needs = {
 	fuel = 0.2
 }
 
-country_migration_target = {
+country_migration_target =
+{
 	factor = 1
-	
+
 	modifier = {
-		factor = 0
-		border_policy = quota_immigration
-		THIS = { NOT = { literacy = 0.6 } }
+		factor = -1000
+		has_country_flag = ghostland
 	}
 	modifier = {
-		factor = 0.75
-		NOT = { military_spending = 0.4 }
+		factor = 0.9
+		unemployment = 0.05
 	}
 	modifier = {
-		factor = 1.1
-		military_spending = 0.7
+		factor = 0.9
+		unemployment = 0.1
 	}
 	modifier = {
-		factor = 1.1
-		military_spending = 0.8
+		factor = 0.9
+		unemployment = 0.15
 	}
 	modifier = {
-		factor = 1.1
-		military_spending = 0.9
+		factor = 0.9
+		unemployment = 0.2
 	}
 	modifier = {
-		factor = 1.2
-		military_spending = 0.99
+		factor = 0.9
+		unemployment = 0.25
 	}
-	
 	modifier = {
-		factor = 2.0
+		factor = 0.9
+		unemployment = 0.3
+	}
+	modifier = {
+		factor = 0.9
+		unemployment = 0.35
+	}
+	modifier = {
+		factor = 0.1
+		unemployment = 0.5
+	}
+	modifier = {
+		factor = -10000.0
+		NOT = { has_country_flag = new_world_nation }
+	}
+#	modifier = {
+#		factor = 4.0
+#		THIS = { religion = jewish }
+#		any_owned_province = { is_core = ISR }
+#	}
+#	modifier = {
+#		factor = 10.0
+#		has_country_flag = new_world_nation
+#		nationalvalue = nv_liberty
+#	}
+	modifier = {
+		factor = 10.0
+		has_country_flag = north_american_immigrant_nation
 		OR = {
-			is_primary_culture = THIS
-			is_accepted_culture = THIS
+			AND = {
+				year = 1836
+				month = 0
+				NOT = { month = 1 }
+			}
+			AND = {
+				year = 1836
+				month = 2
+				NOT = { month = 3 }
+			}
+			AND = {
+				year = 1836
+				month = 4
+				NOT = { month = 5 }
+			}
+			AND = {
+				year = 1836
+				month = 6
+				NOT = { month = 7 }
+			}
+			AND = {
+				year = 1836
+				month = 8
+				NOT = { month = 9 }
+			}
+			AND = {
+				year = 1836
+				month = 10
+				NOT = { month = 11 }
+			}
 		}
 	}
-	
 	modifier = {
-		factor = 1.3
+		factor = 10.0
+		has_country_flag = south_american_immigrant_nation
 		OR = {
-			is_culture_group = THIS
 			AND = {
-				THIS = { is_culture_group = iberian }
-				is_culture_group = latin_american
+				year = 1836
+				month = 1
+				NOT = { month = 2 }
 			}
 			AND = {
-				THIS = { is_culture_group = beneluxian}
-				is_culture_group = burgundian_american
+				year = 1836
+				month = 3
+				NOT = { month = 4 }
 			}
 			AND = {
-				THIS = { is_culture_group = east_asian }
-				is_culture_group = oversea_chinese
+				year = 1836
+				month = 5
+				NOT = { month = 6 }
 			}
 			AND = {
-				THIS = { is_culture_group = beneluxian}
-				is_culture_group = boer_cultures
+				year = 1836
+				month = 7
+				NOT = { month = 8 }
 			}
 			AND = {
-				THIS = { is_culture_group = french }
-				is_culture_group = anglois_american
-			}
-			AND = {
-				THIS = { is_culture_group = british } 
-				is_culture_group = english_american
-			}
-			AND = {
-				THIS = { is_culture_group = scandinavian } 
-				is_culture_group = scandinavian_american
+				year = 1836
+				month = 9
+				NOT = { month = 10 }
 			}
 		}
 	}
-	
 	modifier = {
-		factor = 4.0
-		number_of_states = 2
-		has_country_flag = new_world_nation
-		OR = {
-			continent = north_america
-			continent = south_america
-			continent = australia_new_zealand
-			has_country_flag = batavia_immigration
-		}
-		OR = {
-			government = democracy
-			government = presidential_dictatorship
-			government = hms_government
-		}
-	}
-	
-	modifier = {
-		factor = 3.7
-		NOT = { total_pops = 500000 }
-		NOT = { number_of_states = 2 }
-		has_country_flag = new_world_nation
-		OR = {
-			continent = north_america
-			continent = south_america
-			continent = australia_new_zealand
-			has_country_flag = batavia_immigration
-		}
-		OR = {
-			government = democracy
-			government = presidential_dictatorship
-			government = hms_government
-		}
-	}
+        factor = -1000.0
+		has_global_flag = fuck_ai_immigration
+		ai = yes
+    }
+#	modifier = {
+#		factor = 0.1
+#		has_country_flag = new_world_nation
+#		nationalvalue = nv_liberty
+#		NOT = {
+#			any_owned_province = {
+#				OR = {
+#					AND = {
+#						has_pop_type = labourers
+#						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
+#					}
+#					AND = {
+#						has_pop_type = farmers
+#						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
+#					}
+#					AND = {
+#						state_scope = { has_factories = yes }
+#						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
+#					}
+#				}
+#			}
+#		}
+#	}
 }
 
 migration_target =
 {
 	factor = 0.01
 	
-	modifier = {
-		factor = 0.1
-		unemployment = 0.1
-		state_scope = {
-			has_factories = no
-			}
-	}
 	modifier = {
 		factor = 1.2
 		total_pops = 150000
@@ -208,50 +244,33 @@ migration_target =
 	modifier = {
 		factor = 1.2
 		total_pops = 750000
-	}	
-	
-	modifier = {
-		factor = 0
-		is_overseas = yes
-		country = { border_policy = closed_borders }
 	}
-	
-	#modifier = {
-	#	factor = 0
-	#	NOT = { state_scope = {	work_available = { worker = craftsmen } } }
-	#	country = { economic_policy = planned_economy }
-	#	OR = { 
-	#		unemployment_by_type = { type = farmers value = 0.1  }
-	#		unemployment_by_type = { type = labourers value = 0.1  }
-	#	}
-	#}
 	modifier = {
-		factor = 1.2
+    		factor = 4
+    		has_culture_core = yes
+	}
+	modifier = {
+		factor = 4
 		has_pop_culture = THIS
 	}
-	#modifier = {
-	#	factor = 2
-	#	any_core = {
-	#		OR = {
-	#			is_primary_culture = THIS
-	#			is_accepted_culture = THIS
-	#		}
-	#	}
-	#	state_scope = {	work_available = { worker = craftsmen } }
-	#}
 	modifier = {
-		factor = 1.2
-		has_pop_religion = THIS
-	}
+		factor = 2
+		state_scope = {
+			has_factories = yes
+		}
+	}	
+#	modifier = {
+#		factor = 1.2
+#		has_pop_religion = THIS
+#	}
 	modifier = {
 		factor = 1.5
 		any_core = { is_primary_culture = THIS }
 	}
 	modifier = {
 		factor = 0.75
-		OR = {
-			state_scope = { is_slave = yes }
-			is_overseas = yes
+		state_scope = {
+			is_slave = yes
 		}
 	}
 	modifier = {
@@ -266,83 +285,6 @@ migration_target =
 		factor = 1.05
 		is_coastal = yes
 	}
-		
-	modifier = {
-		factor = 0.8
-		terrain = steppe
-	}
-	
-	modifier = {
-		factor = 0.7
-		terrain = savanna
-	}
-	
-	modifier = {
-		factor = 0.8
-		terrain = dryhills
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = jungle
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = mountain
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = montane_forest
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = marsh
-	}
-	
-	modifier = {
-		factor = 0.5
-		terrain = semidesert
-	}
-	
-	modifier = {
-		factor = 0.5
-		terrain = boreal
-	}
-
-	modifier = {
-		factor = 0.1
-		terrain = small_island
-	}
-	
-	modifier = {
-		factor = 0.01
-		terrain = coral_island
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = desert
-	}
-
-	modifier = {
-		factor = 0.01
-		terrain = desert
-		continent = africa
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = arctic
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = montane_tundra
-	}
-	
 	modifier = {
 		factor = 2
 		life_rating = 40
@@ -352,7 +294,6 @@ migration_target =
 		life_rating = 50
 	}
 }
-
 promote_to = {
 soldiers = {
 

@@ -1,9 +1,10 @@
 capital = 771
 primary_culture = croat
+culture = serb
 religion = catholic
 government = absolute_monarchy
 plurality = 0.05
-nationalvalue = nv_order
+nationalvalue = nv_equity
 literacy = 0.2
 civilized = yes
 
@@ -30,7 +31,8 @@ school_reforms = no_schools
 conscription = four_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 border_policy = quota_immigration
 
 set_country_flag = catholic_country

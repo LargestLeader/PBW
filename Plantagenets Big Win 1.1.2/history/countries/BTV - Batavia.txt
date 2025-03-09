@@ -74,6 +74,7 @@ basic_chemistry = 1
 
 set_country_flag = new_world_nation
 set_country_flag = batavia_immigration
+set_country_flag = south_american_immigrant_nation
 
 # Starting Consciousness
 consciousness = 3

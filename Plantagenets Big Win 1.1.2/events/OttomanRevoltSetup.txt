@@ -8,7 +8,6 @@ country_event = {
 		OR = {
 			tag = MAC
 			tag = ALB
-			tag = EGY
 		}
 		NOT = { has_country_flag = rebellion }
 	}
